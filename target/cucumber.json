@@ -1,0 +1,48 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-21T06:29:24.350Z",
+        "line": 3,
+        "name": "Check Login via POM",
+        "description": "",
+        "id": "geodata-login-feature;check-login-via-pom",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.stepdefinitions.pomloginstepdefinitions.user_navigate_to_geodataplus_website(pomloginstepdefinitions.java:20)\r\n\tat ✽.user navigate to geodataplus website(file:///D:/JAVAWORKSPACE2020/GeoData_Cucumber_POM/src/main/java/features/GeoData.feature:4)\r\n",
+              "duration": 7272000000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user navigate to geodataplus website",
+            "match": {
+              "location": "com.stepdefinitions.pomloginstepdefinitions.user_navigate_to_geodataplus_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user clicks login button",
+            "match": {
+              "location": "com.stepdefinitions.pomloginstepdefinitions.user_clicks_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "GeoData Login Feature",
+    "description": "",
+    "id": "geodata-login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/GeoData.feature",
+    "tags": []
+  }
+]
